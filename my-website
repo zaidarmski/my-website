@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name | Portfolio</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; margin: 0; line-height: 1.5; }
+    header { padding: 48px 20px; max-width: 900px; margin: 0 auto; }
+    main { padding: 0 20px 48px; max-width: 900px; margin: 0 auto; }
+    .card { border: 1px solid #ddd; border-radius: 14px; padding: 18px; margin: 14px 0; }
+    nav a { margin-right: 12px; text-decoration: none; }
+    footer { padding: 24px 20px; max-width: 900px; margin: 0 auto; color: #666; }
+    .tag { display:inline-block; padding: 4px 10px; border:1px solid #ddd; border-radius:999px; margin: 4px 6px 0 0; font-size: 14px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Student interested in tech policy, AI governance, and public sector accountability.</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#writing">Writing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>
+        I’m studying ______ at UT Austin and exploring how emerging technologies shape policy outcomes.
+        I’m especially interested in AI risk standards, transparency, and responsible procurement.
+      </p>
+      <div>
+        <span class="tag">AI Governance</span>
+        <span class="tag">Tech Policy</span>
+        <span class="tag">Public Accountability</span>
+      </div>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Legislator Data Analysis (R):</strong> loops & functions practice using congressional data.</li>
+        <li><strong>AI Procurement Memo:</strong> proposal for standardized federal risk clauses for AI contracts.</li>
+      </ul>
+    </section>
+
+    <section id="writing" class="card">
+      <h2>Writing</h2>
+      <p>Add links to papers/memos here (PDF links or Google Drive links you’re comfortable sharing).</p>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Email: youremail@domain.com</p>
+      <p>LinkedIn: https://www.linkedin.com/in/yourhandle</p>
+      <p>GitHub: https://github.com/yourusername</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="y"></span> Your Name</p>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
